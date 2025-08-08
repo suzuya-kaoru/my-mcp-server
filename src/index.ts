@@ -292,7 +292,7 @@ async function handleOAuthCallback(request: Request): Promise<Response> {
           </style>
         </head>
         <body>
-          <h1 class="success">🎉 OAuth Authentication Successful!</h1>
+          <h1 class="success">OAuth Authentication Successful!</h1>
           <p><strong>User:</strong> ${user.name} (${user.email})</p>
           <p><strong>Access Token:</strong></p>
           <div class="token">${tokenData.access_token}</div>
@@ -372,7 +372,7 @@ async function handleHomepage(request: Request): Promise<Response> {
         </style>
       </head>
       <body>
-        <h1>🔐 OAuth-Protected MCP Server</h1>
+        <h1>OAuth-Protected MCP Server</h1>
         
         <div class="section">
           <h2>Public Tools</h2>
